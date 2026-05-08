@@ -1,0 +1,5 @@
+{
+  "ServerApiKey": "YOUR_API_KEY_HERE",
+  "AllowedSenderPhone": "+1234567890",
+  "TwilioAuthToken": "YOUR_TWILIO_AUTH_TOKEN"
+}
