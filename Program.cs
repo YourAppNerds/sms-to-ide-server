@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Load configuration
-builder.Configuration.AddJsonFile("config.template.json", optional: true, reloadOnChange: true);
+builder.Configuration.AddJsonFile("config.json", optional: true, reloadOnChange: true);
 builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
 // Configure Entity Framework Core with SQLite and persistent data directory
